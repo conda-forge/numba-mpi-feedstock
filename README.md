@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numba-mpi-feeds
 
 Summary: Numba @njittable MPI wrappers tested on Linux, macOS and Windows
 
-Development: https://github.com/atmos-cloud-sim-uj/numba-mpi/
+Development: https://github.com/numba-mpi/numba-mpi/
 
-Documentation: https://atmos-cloud-sim-uj.github.io/numba-mpi/
+Documentation: https://numba-mpi.github.io/numba-mpi/
 
 Current build status
 ====================

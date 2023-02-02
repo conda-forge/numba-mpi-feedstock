@@ -1,5 +1,5 @@
 {% set name = "numba-mpi" %}
-{% set version = "0.26" %}
+{% set version = "0.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numba-mpi-{{ version }}.tar.gz
-  sha256: 32e06cddefe26fc9812d67fdf879245b759b40c6f115cc3d85899e88a2cd671e
+  sha256: deb9b0a94fb992621ab8008d59c268e0521b09fd045c1fc3c42055483a8906f9
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -36,8 +36,8 @@ test:
 about:
   home: https://pypi.org/project/numba-mpi/
   summary: Numba @njittable MPI wrappers tested on Linux, macOS and Windows
-  dev_url: https://github.com/atmos-cloud-sim-uj/numba-mpi/
-  doc_url: https://atmos-cloud-sim-uj.github.io/numba-mpi/
+  dev_url: https://github.com/numba-mpi/numba-mpi/
+  doc_url: https://numba-mpi.github.io/numba-mpi/
   license: GPL-3.0-only
   license_file: LICENSE
 
