@@ -1,11 +1,11 @@
-About numba-mpi
-===============
+About numba-mpi-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numba-mpi-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/numba-mpi/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numba-mpi-feedstock/blob/main/LICENSE.txt)
 
 Summary: Numba @njittable MPI wrappers tested on Linux, macOS and Windows
 
