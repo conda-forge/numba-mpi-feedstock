@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
     - setuptools-scm
   run:
-    - numpy
+    - numpy <=1.24.4
     - numba
     - mpi4py
     - python >=3.6
