@@ -24,6 +24,7 @@ requirements:
     - numpy <=1.24.4
     - numba
     - mpi4py
+    - psutil
     - python >=3.6
 
 test:
