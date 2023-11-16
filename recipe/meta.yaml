@@ -1,5 +1,5 @@
 {% set name = "numba-mpi" %}
-{% set version = "0.37" %}
+{% set version = "0.38" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numba-mpi-{{ version }}.tar.gz
-  sha256: c50da9ac31d33b46818aa08b0795ab886fbc28ee00bec389142fc6476c764b45
+  sha256: 380176ffcbdb5bc9ea443a46e862ac90d6044ef84de78cfc5b570d5fe7facc8c
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -24,6 +24,7 @@ requirements:
     - numpy <=1.24.4
     - numba
     - mpi4py
+    - psutil
     - python >=3.6
 
 test:
