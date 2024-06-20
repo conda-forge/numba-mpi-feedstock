@@ -30,7 +30,7 @@ requirements:
 test:
   commands:
     - pip check
-    - mpiexec python -c "import numba_mpi"
+    - mpiexec -n 1 python -c "import numba_mpi"
   requires:
     - pip
 
