@@ -1,13 +1,13 @@
 {% set name = "numba-mpi" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 224ea629201879e725dfb3434a110106fc3e8994305dd4e6787661e5bcdc5b96
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 6100858de251a09f4c38b2a314cf2d4dd630f1abd67bdc315d922fd2ece61181
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
